@@ -34,6 +34,7 @@ public class Datos {
         datos.setPais("Guatemala");
         datos.setDepartamento("Escuintla");
         datos.setMunicipio("Escuintla");
+        datos.setComunidad("Ladino");
         datos.setDPI(292910293);
         
         Datos_personales.add(datos);
@@ -45,6 +46,7 @@ public class Datos {
         datos1.setDepartamento("Guatemala");
         datos1.setMunicipio("Villanueva");
         datos1.setDPI(493290101);
+        datos1.setComunidad("Ladino");
         
         Datos_personales1.add(datos1);
         
@@ -55,6 +57,7 @@ public class Datos {
         datos2.setDepartamento("Escuintla");
         datos2.setMunicipio("Masagua");
         datos2.setDPI(202403211);
+        datos2.setComunidad("Ladino");
         
         Datos_personales2.add(datos2);
     }
@@ -65,7 +68,7 @@ public class Datos {
         telefono [1] = 49418204; 
         telefono [2] = 30319852; 
         System.out.println(this.Nombre +"\t"+ this.Apellido + "\t" + this.DPI + "\n\n"
-                + "\t" + this.departamento + "\t" + this.municipio + "\t" + this.Pais + "\n\n");
+                + "\t" + this.departamento + "\t" + this.municipio + "\t" + this.Pais + "\t" + this.comunidad + "\n\n");
         
         for (int c=0; c <1;c++){
             System.out.println("\t" + Direccion[c] + "\t\t" + Direccion [c+1]
@@ -79,7 +82,7 @@ public class Datos {
         telefono [1] = 49391809; 
         telefono [2] = 40329100; 
         System.out.println(this.Nombre +"\t"+ this.Apellido + "\t" + this.DPI + "\n\n"
-                + "\t" + this.departamento + "\t" + this.municipio + "\t" + this.Pais + "\n\n");
+                + "\t" + this.departamento + "\t" + this.municipio + "\t" + this.Pais + "\t" + this.comunidad +  "\n\n");
         
         for (int c=0; c <1;c++){
             System.out.println("\t" + Direccion[c] + "\t\t" + Direccion [c+1]
@@ -93,7 +96,7 @@ public class Datos {
         telefono [1] = 21909102; 
         telefono [2] = 21384019; 
         System.out.println(this.Nombre +"\t"+ this.Apellido + "\t" + this.DPI + "\n\n"
-                + "\t" + this.departamento + "\t" + this.municipio + "\t" + this.Pais + "\n\n");
+                + "\t" + this.departamento + "\t" + this.municipio + "\t" + this.Pais + "\t" + this.comunidad + "\n\n");
         
         for (int c=0; c <1;c++){
             System.out.println("\t" + Direccion[c] + "\t\t" + Direccion [c+1]
